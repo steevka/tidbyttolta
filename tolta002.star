@@ -17,5 +17,5 @@ def main():
         parsed = selector.find("body").first().text()
 
     return render.Root(
-        child = render.Text("BTC: %d USD" % parsed)
+        child = render.Text(parsed)
     )
