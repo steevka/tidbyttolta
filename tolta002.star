@@ -6,7 +6,7 @@ load("render.star", "render")
 load("schema.star", "schema")
 load("xpath.star", "xpath")
 
-CURL = "https://embed.tolta.co/6a946e6df44dd32f8e150e10b3a35c86/"
+URL = "https://embed.tolta.co/6a946e6df44dd32f8e150e10b3a35c86/"
 
 def main():
     rep = http.get(URL)
